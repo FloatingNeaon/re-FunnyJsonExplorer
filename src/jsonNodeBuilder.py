@@ -33,7 +33,7 @@ class JsonNodeBuilder:
         self.node.key = key
 
     def setAttri_Value(self, value):
-        if value == "null":
+        if value == None:
             self.node.value = ""
         else :
             self.node.value = value

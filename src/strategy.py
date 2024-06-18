@@ -27,7 +27,7 @@ class Strategy(ABC):
         else:
             icon = self.container_icon
         if node.isLeaf and node.value != '':
-            return icon + str(node.key)+':'+str(node.value)
+            return icon + str(node.key) + " : " + str(node.value)
         return icon + str(node.key)
     
     def execute(self,node):
