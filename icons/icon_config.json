@@ -1,0 +1,11 @@
+{
+    "default":{
+        "Container":"@",
+        "Leaf":"$"
+    },
+
+    "poker-face":{
+        "Container":"♢",
+        "Leaf":"♤"
+    }
+}
