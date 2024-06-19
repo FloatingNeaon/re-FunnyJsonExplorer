@@ -1,6 +1,9 @@
+"""
+树形风格具体策略类
+"""
+
 from strategy import Strategy
 
-# 树形风格具体策略
 class TreeStrategy(Strategy):
     def __init__(self, icon_family):
         super().__init__(icon_family)

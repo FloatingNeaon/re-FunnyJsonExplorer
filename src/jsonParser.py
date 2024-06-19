@@ -1,3 +1,7 @@
+"""
+json分析器类
+"""
+
 import json
 from jsonNodeBuilder import JsonNodeBuilder
 

@@ -1,7 +1,9 @@
+"""
+矩形风格具体策略类
+"""
+
 from strategy import Strategy
 
-
-# 矩形风格策略
 class RectangleStrategy(Strategy):
     def __init__(self, icon_family):
         super().__init__(icon_family)
